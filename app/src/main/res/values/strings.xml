@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+    <string name="main_title">Tour Guide - Pune</string>
+    <string name="category_culture">Culture</string>
+    <string name="category_parks">Parks</string>
+    <string name="category_monuments">Monuments</string>
+    <string name="category_shopping">Shopping</string>
+
+
+    <!-- Cultural places names -->
+    <string name="vasant_theater">Vasant Theater</string>
+    <string name="darshan_hall">Darshan Hall</string>
+    <string name="ram_krishna_more_hall">Ram Krishna More Hall</string>
+    <string name="bal_gandharva_hall">Bal Gandharva Hall</string>
+    <string name="pune_puppet_theater"> Pune Puppet theater</string>
+    <string name="kirkee_exhibition_hall">Kirkee Exhibition Hall</string>
+    <string name="senapati_art_museum">Senapati Art Museum</string>
+    <string name="mah_historical_and_archaeological_museum_reserve">
+        Maharashtra Historical and Archaeological Museum-Reserve
+    </string>
+    <string name="pune_regional_universal_scientific_library">
+        Pune Regional Universal Scientific Library
+    </string>
+
+
+    <!-- Monuments names -->
+    <string name="empress_garden">
+        Empress Garden
+    </string>
+    <string name="shaniwar_wada">
+        Shaniwar Vada
+    </string>
+    <string name="chaturshrungi_temple">Chaturshrungi Temple</string>
+    <string name="lal_mahal">
+        Monument "Lal Mahal"
+    </string>
+    <string name="dagdusheth_halwai">Dagdusheth Halwai</string>
+    <string name="baneshwar_temple">Baneshwar Temple</string>
+    <string name="mt_mary_church_pune">
+        Mt. Mary Church Pune
+    </string>
+    <string name="ghoradeshwar_temple">Ghoradeshwar Temple</string>
+    <string name="mastani_palace">Mastani Palace</string>
+
+
+    <!-- Parks names -->
+    <string name="saras_baug">Saras Baug</string>
+    <string name="p_l_deshpande_garden">P L Deshpande Garden</string>
+    <string name="okoyama_fuji_garden">Okoyama Fuji Garden</string>
+    <string name="appu_ghar">
+        Appu Ghar
+    </string>
+    <string name="katraj_garden">Katraj Udyaan</string>
+    <string name="sambhaji_udyaan">Sambhaji Udyaan</string>
+    <string name="nowrojee_udyaan">Nowrojee Udyaan</string>
+    <string name="strawberry_garden">Starwberry Garden</string>
+
+
+    <!-- Shopping places names -->
+    <string name="phoenix_mall">Phoenix Mall</string>
+    <string name="sgs_megamall">SGS Mall</string>
+    <string name="seasons_banquet">Seasons Banquet</string>
+    <string name="tarachand_mall">Tarachand Mall</string>
+    <string name="elpro_square">Elpro Square</string>
+    <string name="fatimanagar_square">Fatimanagar Square</string>
+    <string name="pimpri_central">Pimpri Central</string>
+    <string name="westend_mall">Westend Mall</string>
+    <string name="shoppers_stop">Shoppers Stop</string>
+</resources>
