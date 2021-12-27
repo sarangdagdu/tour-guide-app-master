@@ -7,14 +7,15 @@ package com.example.android.tourguide;
 public class Place {
 
     // Name of an attraction place
-    private String mPlaceName;
+    private final String mPlaceName;
     // Photo of an attraction place
-    private int mImageResourceID;
+    private final int mImageResourceID;
 
 
     /**
      * Create a new {@link Place} object.
-     * @param placeName is the name of an attraction place.
+     *
+     * @param placeName       is the name of an attraction place.
      * @param imageResourceID is the photo of an attraction place.
      */
     public Place(String placeName, int imageResourceID) {
@@ -29,7 +30,7 @@ public class Place {
     }
 
     // Get the photo's ID of an attraction place
-    public  int getImageResourceID() {
+    public int getImageResourceID() {
         return mImageResourceID;
     }
 }

@@ -2,7 +2,7 @@ package com.example.android.tourguide;
 
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
+import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -36,9 +36,9 @@ public class CultureFragment extends Fragment {
         places.add(new Place(getString(R.string.kirkee_exhibition_hall), R.drawable.central_exhibition_hall));
         places.add(new Place(getString(R.string.senapati_art_museum), R.drawable.regional_art_museum));
         places.add(new Place(getString(R.string.mah_historical_and_archaeological_museum_reserve),
-                             R.drawable.state_historical_and_archaeological_museum_reserve));
+                R.drawable.state_historical_and_archaeological_museum_reserve));
         places.add(new Place(getString(R.string.pune_regional_universal_scientific_library),
-                              R.drawable.pushkin_regional_universal_scientific_library));
+                R.drawable.pushkin_regional_universal_scientific_library));
 
         // Inflate current View object in places_list.xml
         View rootView = inflater.inflate(R.layout.places_list, container, false);

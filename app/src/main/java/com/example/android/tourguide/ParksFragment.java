@@ -2,7 +2,7 @@ package com.example.android.tourguide;
 
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
+import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -33,7 +33,7 @@ public class ParksFragment extends Fragment {
         places.add(new Place(getString(R.string.p_l_deshpande_garden), R.drawable.chistiakovskaya_grove));
         places.add(new Place(getString(R.string.okoyama_fuji_garden), R.drawable.catherine_square));
         places.add(new Place(getString(R.string.appu_ghar),
-                             R.drawable.square_of_friendship_of_peoples));
+                R.drawable.square_of_friendship_of_peoples));
         places.add(new Place(getString(R.string.katraj_garden), R.drawable.sunny_island));
         places.add(new Place(getString(R.string.sambhaji_udyaan), R.drawable.park_krasnodar));
         places.add(new Place(getString(R.string.nowrojee_udyaan), R.drawable.botanical_garden));

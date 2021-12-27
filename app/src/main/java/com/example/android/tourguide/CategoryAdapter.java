@@ -1,16 +1,16 @@
 package com.example.android.tourguide;
 
 import android.content.Context;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
 
 /**
  * Provides the appropriate {@link Fragment} for a view pager.
  */
 public class CategoryAdapter extends FragmentPagerAdapter {
 
-    private Context mContext;
+    private final Context mContext;
 
     public CategoryAdapter(Context context, FragmentManager fm) {
         super(fm);

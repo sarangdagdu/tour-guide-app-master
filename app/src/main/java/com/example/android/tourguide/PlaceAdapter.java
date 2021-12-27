@@ -1,8 +1,8 @@
 package com.example.android.tourguide;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -21,8 +21,9 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
 
     /**
      * Create a new {@link PlaceAdapter} object.
+     *
      * @param context is the current context (i.e. Activity) that the adapter is being created in.
-     * @param object is the list of {@link Place}s to be displayed.
+     * @param object  is the list of {@link Place}s to be displayed.
      */
     public PlaceAdapter(Context context, ArrayList<Place> object) {
         super(context, 0, object);
@@ -31,16 +32,17 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
 
     /**
      * Provides a view for an AdapterView (ListView, GridView, etc.)
-     * @param position The position in the list of data that should be displayed in the list item view.
+     *
+     * @param position    The position in the list of data that should be displayed in the list item view.
      * @param convertView The recycled view to populate.
-     * @param parent The parent ViewGroup that is used for inflation.
+     * @param parent      The parent ViewGroup that is used for inflation.
      * @return The View for the position in the AdapterView.
      */
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         // Check if the existing view is being reused, otherwise inflate the view
-        if(convertView == null) {
+        if (convertView == null) {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
         }
 
